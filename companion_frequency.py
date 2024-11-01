@@ -11,12 +11,10 @@ import numpy as np
 from scipy import integrate
 import tkinter as tk
 
-
-
 from streamlit import session_state
 
 st.set_page_config(
-	page_title="SLSdb",
+	page_title="CompaionFrequency",
 	page_icon="",
 	layout="wide",
 	)
