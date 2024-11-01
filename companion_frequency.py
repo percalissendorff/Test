@@ -12,15 +12,12 @@ st.set_page_config(
 	layout="wide",
 	)
 
-
-
-
 # Create a text input widget
-host_mass = st.number_input("Host star [Solar mass]:")
-Jup_min= st.number_input("Min companion mass [Jupiter mass]:")
-Jup_max = st.number_input("Max companion mass [Jupiter mass]:")
-a_min = st.number_input("a min [AU]:")
-a_max = st.number_input("a max [AU]:")
+host_mass = st.number_input("Host star [Solar mass]:", value=1.0)
+Jup_min= st.number_input("Min companion mass [Jupiter mass]:", value=0.3)
+Jup_max = st.number_input("Max companion mass [Jupiter mass]:", value=3.0)
+a_min = st.number_input("a min [AU]:", value=1.0)
+a_max = st.number_input("a max [AU]:", value=10.0)
 
 
 ## Do calculations
