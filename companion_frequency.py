@@ -4,15 +4,11 @@
 
 
 import streamlit as st
-import pandas as pd
+# import pandas as pd
 import numpy as np
-# ~ from bokeh.plotting import figure
-# ~ from bokeh.io import curdoc
-# ~ from bokeh.palettes import Magma256, Viridis256
 
 # 
 from scipy import integrate
-from scipy import interpolate
 import tkinter as tk
 
 
